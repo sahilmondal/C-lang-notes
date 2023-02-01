@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C-lang SAQs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>SAQs</h1>
+      <a href="http://sahilmondal.github.io/notes-c/defination.html"
+        ><button class="btn">Show Definations in C-lang</button></a
+      >
+    </nav>
+
+    <h1>C Language SAQs for college students</h1>
+    <ol>
+      <li>
+        <h2>What is C language?</h2>
+        <p>
+          C is a high-level programming language developed in the 1970s for
+          system programming and writing operating systems. It is widely used
+          for developing system software, embedded systems, and games.
+        </p>
+      </li>
+      <li>
+        <h2>What are the features of C language?</h2>
+        <ul>
+          <li><p>Low-level access to memory</p></li>
+          <li><p>Pointers for dynamic memory allocation</p></li>
+          <li><p>Structured programming constructs</p></li>
+          <li><p>Functions and an extensive library</p></li>
+        </ul>
+      </li>
+      <li>
+        <h2>What is a variable in C language?</h2>
+        <p>
+          A variable is a named storage location in memory that holds a value
+          that can be modified during the execution of a program. The value
+          stored in a variable can be accessed and used by different parts of a
+          program.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a local and a global variable in C
+          language?
+        </h2>
+        <p>
+          A local variable is a variable declared inside a function and its
+          scope is limited to that function. On the other hand, a global
+          variable is a variable declared outside any function and its scope is
+          the entire program. Global variables can be accessed from any part of
+          the program, while local variables can only be accessed within the
+          function where they are declared.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a constant and a variable in C
+          language?
+        </h2>
+        <p>
+          A constant is a value that cannot be modified during the execution of
+          a program, while a variable is a value that can be changed. Constants
+          are declared using the keyword "const," while variables are declared
+          using regular variable declaration statements.
+        </p>
+      </li>
+      <li>
+        <h2>What is an operator in C language?</h2>
+        <p>
+          An operator is a symbol that tells the compiler to perform specific
+          mathematical or logical manipulations. Operators in C include
+          arithmetic operators, relational operators, logical operators,
+          assignment operators, and more.
+        </p>
+      </li>
+      <li>
+        <h2>What is an expression in C language?</h2>
+        <p>
+          An expression is a combination of values, variables, and operators
+          that are evaluated to produce a result. Expressions can be used to
+          perform calculations, assign values to variables, and more.
+        </p>
+      </li>
+      <li>
+        <h2>What is the difference between ++i and i++ in C language?</h2>
+        <p>
+          The difference between ++i and i++ is in the order in which the
+          increment operation is performed. In the case of ++i, the increment
+          operation is performed before the value is used in the expression,
+          while in the case of i++, the increment operation is performed after
+          the value is used in the expression.
+        </p>
+      </li>
+      <li>
+        <h2>What is a pointer in C language?</h2>
+        <p>
+          A pointer is a variable that holds the memory address of another
+          variable. Pointers allow you to access and manipulate the memory
+          directly, which can be useful for tasks such as allocating and freeing
+          memory dynamically, passing variables to functions by reference, and
+          more.
+        </p>
+      </li>
+      <li>
+        <h2>What is a structure in C language?</h2>
+        <p>
+          A structure in C is a user-defined data type that groups together
+          different variables under a single name. Structures allow you to
+          define complex data types and represent real-world objects in your
+          program with their properties and attributes.
+        </p>
+      </li>
+      <li>
+        <h2>What is a union in C language?</h2>
+        <p>
+          A union in C is a user-defined data type that is similar to a
+          structure, but with a different memory allocation strategy. Unlike
+          structures, unions use the same memory location for all their
+          variables, so only one variable can hold a value at any given time.
+        </p>
+      </li>
+      <li>
+        <h2>What is an enumeration in C language?</h2>
+        <p>
+          An enumeration in C is a user-defined data type that consists of a set
+          of named integer constants. Enumerations are often used to define
+          named constants in your program, making it easier to understand and
+          maintain your code.
+        </p>
+      </li>
+      <li>
+        <h2>What is an array in C language?</h2>
+        <p>
+          An array in C is a collection of elements of the same data type,
+          stored in contiguous memory locations and accessed using a common name
+          and an index. Arrays allow you to store and manipulate collections of
+          data in your program.
+        </p>
+      </li>
+      <li>
+        <h2>What is a function in C language?</h2>
+        <p>
+          A function in C is a self-contained block of code that performs a
+          specific task. Functions can accept input parameters, return values,
+          and be called from other parts of the program. Functions allow you to
+          modularize your code, making it easier to understand, test, and reuse.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a call by value and a call by reference
+          in C language?
+        </h2>
+        <p>
+          In a call by value, the value of the argument is passed to the
+          function, and any changes made to the argument inside the function do
+          not affect the value of the original argument. In a call by reference,
+          a reference to the memory location of the argument is passed to the
+          function, allowing the function to directly manipulate the value
+          stored at that memory location.
+        </p>
+      </li>
+      <li>
+        <h2>What is a preprocessor directive in C language?</h2>
+        <p>
+          A preprocessor directive in C is a line of code that begins with a
+          hash symbol (#) and is processed by the C preprocessor before the
+          actual compilation of the program. Preprocessor directives are used to
+          include header files, define macros, and perform other tasks that need
+          to be done before the actual compilation of the program.
+        </p>
+      </li>
+      <li>
+        <h2>What is a header file in C language?</h2>
+        <p>
+          A header file in C is a file that contains declarations for functions,
+          variables, and other elements that can be used in multiple source
+          files. Header files are typically included in your program using the
+          #include preprocessor directive, and allow you to write modular,
+          reusable code by defining common elements in a single file that can be
+          used across your program.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the main() function in C language?</h2>
+        <p>
+          The main() function in C is the entry point of your program, where the
+          execution of your code begins. The main() function is called by the
+          operating system when your program is run, and it contains the code
+          that defines the behavior of your program. The main() function is
+          required in every C program, and it can accept arguments and return a
+          value to indicate the success or failure of the program.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between local and global variables in C
+          language?
+        </h2>
+        <p>
+          Local variables in C are variables that are declared within a function
+          and are only accessible within that function. Global variables in C
+          are variables that are declared outside of any function, and are
+          accessible from any function in your program. Global variables can be
+          accessed and modified from any part of your program, but their values
+          persist only for the duration of the program, whereas local variables
+          are created and destroyed each time the function is called.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a while loop and a for loop in C
+          language?
+        </h2>
+        <p>
+          A while loop in C repeatedly executes a block of code as long as a
+          condition is true, whereas a for loop in C allows you to execute a
+          block of code a specific number of times. The for loop also provides a
+          more concise syntax for initializing variables, specifying the
+          conditions for executing the loop, and incrementing variables each
+          iteration.
+        </p>
+      </li>
+      <li>
+        <h2>What is the difference between ++i and i++ in C language?</h2>
+        <p>
+          The ++ operator in C can be used as either a pre-increment (++i) or a
+          post-increment (i++). The difference between the two is that in a
+          pre-increment, the value of the variable is incremented before it is
+          used in an expression, whereas in a post-increment, the value of the
+          variable is incremented after it is used in an expression. This can
+          have an impact on the order of evaluation of expressions, and the
+          final value of the variable.
+        </p>
+      </li>
+      <li>
+        <h2>What is a null pointer in C language?</h2>
+        <p>
+          A null pointer in C is a special value that is assigned to a pointer
+          variable when it does not point to any valid memory location. The null
+          pointer is typically represented by a constant with the value 0, and
+          is used to indicate the absence of a valid memory location, for
+          example, when initializing a pointer that does not point to any
+          memory, or when a function returns a null pointer to indicate an error
+          condition.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a static variable and a dynamic
+          variable in C language?
+        </h2>
+        <p>
+          A static variable in C retains its value between function calls,
+          whereas a dynamic variable is created and destroyed each time the
+          function is called. Dynamic variables are typically created using
+          malloc() or calloc() functions, and must be explicitly deallocated
+          using the free() function when they are no longer needed. Static
+          variables are typically declared within a function using the static
+          keyword, and are only accessible within that function. The memory for
+          a static variable is allocated when the program starts and is never
+          freed, which makes it ideal for maintaining state across multiple
+          function calls, while dynamic variables are better suited for
+          allocating memory on-the-fly as needed, and freeing it when it is no
+          longer needed to conserve system resources.
+        </p>
+      </li>
+      <li>
+        <h2>What is a function prototype in C language?</h2>
+        <p>
+          A function prototype in C is a declaration of a function that
+          specifies the function name, the number and type of arguments that the
+          function takes, and the type of value that the function returns.
+          Function prototypes are typically placed in header files, and are used
+          to declare functions that are defined in other source files, or to
+          declare functions that are implemented in libraries. Function
+          prototypes are also used to ensure that the function calls in your
+          program match the function definitions, and to enforce type safety by
+          checking that the arguments passed to the function match the expected
+          types.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between call by value and call by reference in
+          C language?
+        </h2>
+        <p>
+          Call by value in C is a method of passing arguments to a function
+          where the value of the argument is copied into a function-local
+          variable, and the function operates on the local copy of the data.
+          Call by reference in C is a method of passing arguments to a function
+          where the address of the argument is passed, and the function operates
+          directly on the original data. Call by reference can be used to pass
+          large structures or arrays as arguments to functions, or to return
+          multiple values from a function, as any changes made to the data in
+          the function will persist after the function returns.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a null character and a newline
+          character in C language?
+        </h2>
+        <p>
+          A null character in C is a special character with the value 0 that is
+          used to indicate the end of a string. The null character is typically
+          used to terminate strings in C, as string functions in C rely on the
+          presence of a null character to determine the end of a string. A
+          newline character in C is a character that represents a line break in
+          a text file, and is typically represented by '\n' in C. Newline
+          characters are used to separate lines of text in files, or to format
+          output in the terminal.
+        </p>
+      </li>
+      <li>
+        <h2>What is a conditional operator in C language?</h2>
+        <p>
+          A conditional operator in C is a shorthand operator that allows you to
+          write an if-else statement in a single line. The conditional operator
+          takes three operands, a condition, and two values, and returns the
+          value of the second operand if the condition is true, and the value of
+          the third operand if the condition is false. The syntax for a
+          conditional operator in C is: condition ? value1 : value2, where
+          condition is a Boolean expression, and value1 and value2 are the
+          values to be returned if the condition is true or false, respectively.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a break statement and a continue
+          statement in C language?
+        </h2>
+        <p>
+          A break statement in C is used to exit a loop or a switch statement
+          prematurely, whereas a continue statement in C is used to skip the
+          current iteration of a loop and continue to the next iteration. The
+          break statement is typically used when a certain condition is met, and
+          you want to exit the loop or switch statement, whereas the continue
+          statement is used when a certain condition is met, and you want to
+          skip the current iteration and continue to the next iteration. Both
+          the break and continue statements are useful for controlling the flow
+          of a loop, and allow you to write more complex and flexible algorithms
+          in C.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of a typedef in C language?</h2>
+        <p>
+          A typedef in C is a keyword that allows you to create a new type name
+          for an existing type. Typedefs are used to make code more readable, by
+          giving descriptive names to complex or hard-to-read types, or to
+          simplify the declaration of common types. For example, instead of
+          using the type 'unsigned int' for a variable, you can use the typedef
+          'uint' to declare the variable, making the code more concise and
+          easier to read. Typedefs can be used with any type, including
+          primitive types, structures, and arrays, and can make your code more
+          maintainable and less prone to errors.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a preprocessor directive and a normal
+          statement in C language?
+        </h2>
+        <p>
+          A preprocessor directive in C is a special instruction to the C
+          preprocessor, which is a program that processes the source code before
+          it is compiled. Preprocessor directives are typically indicated by a
+          '#' symbol at the beginning of a line, and are used to include header
+          files, define macros, or control the conditional compilation of source
+          code. A normal statement in C is a line of code that is executed by
+          the program at runtime, and can include assignments, function calls,
+          or control statements like 'if' or 'while'. The main difference
+          between a preprocessor directive and a normal statement is that
+          preprocessor directives are processed before the program is compiled,
+          while normal statements are executed at runtime.
+        </p>
+      </li>
+
+      <li>
+        <h2>What is the purpose of the 'volatile' keyword in C language?</h2>
+        <p>
+          The volatile keyword in C is used to declare a variable that may be
+          changed by an external source, such as a hardware device or another
+          thread. This informs the compiler that it should not optimize the code
+          that uses the volatile variable, as the value of the variable may
+          change unexpectedly. The use of the volatile keyword is important in
+          embedded systems programming, where variables may be modified by
+          hardware devices or other interrupt-driven sources. Without the
+          volatile keyword, the compiler may optimize the code and produce
+          incorrect results, as it assumes that the value of the variable will
+          not change unexpectedly.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a 'structure' and a 'union' in C
+          language?
+        </h2>
+        <p>
+          In C, a structure is a collection of variables of different data
+          types, grouped together under a single name. A structure is used to
+          represent a complex data structure, such as a point in 2D space, a
+          record in a database, or a student's name and grade. A union, on the
+          other hand, is a special type of structure that allows multiple
+          variables to share the same memory location. This means that the size
+          of a union is equal to the size of its largest member, and that only
+          one member of the union can be accessed at a time. Unions are used to
+          save memory and to implement type punning, where the same memory
+          location is interpreted as different data types at different times.
+          The choice between a structure and a union depends on the desired
+          behavior and the purpose of the data structure.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a 'while' loop and a 'do-while' loop in
+          C language?
+        </h2>
+        <p>
+          In C, a while loop is a control structure that repeatedly executes a
+          block of code as long as a specified condition is true. The condition
+          is evaluated before each iteration of the loop, and the loop is
+          terminated if the condition becomes false. A do-while loop is similar
+          to a while loop, but the condition is evaluated after the first
+          iteration of the loop. This means that the code in a do-while loop is
+          guaranteed to be executed at least once, even if the condition is
+          false. The choice between a while loop and a do-while loop depends on
+          the desired behavior and the purpose of the loop. If you want to
+          execute the loop at least once regardless of the condition, then you
+          can use a do-while loop. If you want the loop to execute only if the
+          condition is true, then you can use a while loop.
+        </p>
+      </li>
+
+      <li>
+        <h2>What is the purpose of the 'typedef' keyword in C language?</h2>
+        <p>
+          The typedef keyword in C is used to define a new data type that is an
+          alias for an existing data type. This allows you to create custom data
+          types that are more meaningful and easier to read. For example, you
+          can use typedef to define a new data type 'distance' that is an alias
+          for the data type 'float', or to define a new data type 'age' that is
+          an alias for the data type 'int'. Using typedef can make your code
+          more readable, as it allows you to use more meaningful names for data
+          types, rather than the raw data types themselves.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between a 'for' loop and a 'while' loop in C
+          language?
+        </h2>
+        <p>
+          In C, a for loop and a while loop are both control structures that are
+          used to execute a block of code repeatedly. The main difference
+          between the two is that a for loop is typically used when the number
+          of iterations is known in advance, whereas a while loop is used when
+          the number of iterations is not known. A for loop contains an explicit
+          loop counter or loop variable, which is updated on each iteration of
+          the loop, whereas a while loop only contains a condition that is
+          evaluated before each iteration of the loop. The choice between a for
+          loop and a while loop depends on the desired behavior and the purpose
+          of the loop.
+        </p>
+      </li>
+      <li>
+        <h2>What is the purpose of the 'goto' statement in C language?</h2>
+        <p>
+          The goto statement in C is used to transfer control to a different
+          part of the program, bypassing any intermediate statements. The goto
+          statement is often considered to be a bad programming practice, as it
+          can make the code more difficult to read and maintain. The goto
+          statement is generally used in very rare cases, such as to exit
+          multiple nested loops, or to handle error conditions. If possible, it
+          is recommended to use more structured control structures, such as
+          if-else statements, loops, and functions, instead of goto statements.
+        </p>
+      </li>
+
+      <li>
+        <h2>What is the purpose of the 'const' keyword in C language?</h2>
+        <p>
+          The const keyword in C is used to declare a constant value. When a
+          variable is declared as const, its value cannot be changed during the
+          execution of the program. This makes the variable a read-only
+          variable, which can be useful in certain situations to prevent
+          accidental modification of important values. For example, if you have
+          a constant value that represents the value of pi, you can declare it
+          as a const variable to ensure that its value cannot be changed
+          accidentally. By using const, you can improve the reliability and
+          maintainability of your code, as it makes it easier to catch and
+          prevent accidental changes to important values.
+        </p>
+      </li>
+
+      <li>
+        <h2>
+          What is the purpose of the 'break' and 'continue' statements in C
+          language?
+        </h2>
+        <p>
+          The break and continue statements in C are used to control the flow of
+          execution in loops. The break statement is used to exit a loop
+          prematurely, before all of the iterations have been completed. The
+          continue statement is used to skip the current iteration of the loop
+          and move on to the next iteration. The break statement is typically
+          used to exit a loop when a certain condition is met, such as when a
+          search has found a result, or when an error has occurred. The continue
+          statement is typically used to skip over invalid or unwanted values in
+          a loop. By using break and continue, you can control the flow of
+          execution in your loops, making it easier to write efficient and
+          reliable code.
+        </p>
+      </li>
+
+      <li>
+        <h2>What is the purpose of the main function in C language?</h2>
+        <p>
+          The main function is the entry point of a C program and it is where
+          the execution of the program begins.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between declaration and definition of a
+          variable in C?
+        </h2>
+        <p>
+          Declaration of a variable in C reserves memory space for a variable
+          and specifies its data type, while definition of a variable in C
+          actually assigns a value to a variable.
+        </p>
+      </li>
+
+      <li>
+        <h2>What is the difference between ++i and i++ in C language?</h2>
+        <p>
+          ++i increments the value of i and then returns the incremented value,
+          while i++ returns the original value of i and then increments it.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the break statement in C language?</h2>
+        <p>
+          The break statement is used to exit from a loop prematurely and
+          transfer control to the next statement outside the loop.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the continue statement in C language?</h2>
+        <p>
+          The continue statement skips the current iteration of the loop and
+          transfers control to the next iteration.
+        </p>
+      </li>
+      <li>
+        <h2>What is a structure in C language?</h2>
+        <p>
+          A structure in C is a user-defined data type that can store multiple
+          data items of different data types under a single name.
+        </p>
+      </li>
+      <li>
+        <h2>What is the difference between int and float data type in C?</h2>
+        <p>
+          int is used to store integer values while float is used to store
+          decimal values.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the switch statement in C language?</h2>
+        <p>
+          The switch statement is used to execute one of several blocks of code
+          based on the value of an expression.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of a preprocessor directive in C language?</h2>
+        <p>
+          Preprocessor directives are used to process the source code before
+          compilation. They are used to include header files, define macros,
+          etc.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between for and while loop in C language?
+        </h2>
+        <p>
+          For loop is used when the number of iterations is known in advance,
+          while while loop is used when the number of iterations is unknown.
+        </p>
+      </li>
+      <li>
+        <h2>What is a function in C language?</h2>
+        <p>
+          A function in C is a block of code that performs a specific task and
+          can be called from multiple places in the program.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the sizeof operator in C language?</h2>
+        <p>
+          The sizeof operator is used to find the size of a data type or a
+          variable in bytes.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between single quotes and double quotes in C
+          language?
+        </h2>
+        <p>
+          Single quotes are used to represent a single character constant, while
+          double quotes are used to represent a string literal.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the scanf function in C language?</h2>
+        <p>
+          The scanf function is used to read values from the standard input
+          device (usually keyboard) and store them in the specified variables.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the printf function in C language?</h2>
+        <p>
+          The printf function is used to print formatted data to the standard
+          output device (usually screen).
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between an expression and a statement in C
+          language?
+        </h2>
+        <p>
+          An expression is a combination of variables, constants and operators
+          that evaluate to a value, while a statement is a complete instruction
+          that is executed by the program.
+        </p>
+      </li>
+      <li>
+        <h2>What is the use of the if statement in C language?</h2>
+        <p>
+          The if statement is used to conditionally execute a block of code
+          based on the value of an expression.
+        </p>
+      </li>
+      <li>
+        <h2>What is the difference between a constant and a variable in C?</h2>
+        <p>
+          A constant is a value that cannot be changed during the execution of
+          the program, while a variable is a named memory location that can
+          store a value that can change during the execution of the program.
+        </p>
+      </li>
+      <li>
+        <h2>
+          What is the difference between the & operator and the * operator in C?
+        </h2>
+        <p>
+          The & operator returns the memory address of a variable, while the *
+          operator returns the value stored at a memory address.
+        </p>
+      </li>
+    </ol>
+    <footer>
+      <h3>©️ Designed and Copywrited by Sahil Mondal with 💜</h3>
+    </footer>
+  </body>
+</html>

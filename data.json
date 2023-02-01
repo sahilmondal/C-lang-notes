@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "question": "What is C language?",
+      "answer": "C is a high-level, procedural programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. C is a general-purpose language that is widely used for system programming, developing operating systems, and for creating applications for a wide variety of platforms. C is known for its low-level control and versatility, which makes it an ideal choice for many types of applications."
+    },
+    {
+      "question": "What are the features of C language?",
+      "answer": "Some of the key features of C language include: low-level control, simple syntax, portability, efficient memory use, modular programming, and the ability to extend itself through libraries. These features make C a popular choice for system programming, developing operating systems, and for creating high-performance applications."
+    },
+    {
+      "question": "What is the use of printf in C language?",
+      "answer": "The printf function in C is used to output text or data to the console. It can be used to display values of variables, results of calculations, and messages to the user. The printf function uses a format string that specifies how the data should be formatted and displayed, such as the number of decimal places, the width of the output, and the type of data. By using printf, you can easily format and display output in your C programs."
+    },
+    {
+      "question": "What is the use of scanf in C language?",
+      "answer": "The scanf function in C is used to read data from the console. It can be used to read values into variables, such as numbers or characters, from the user. The scanf function uses a format string that specifies how the data should be read and stored, such as the type of data, the width of the input, and the number of decimal places. By using scanf, you can easily read and store data in your C programs."
+    },
+    {
+      "question": "What is an operator in C language?",
+      "answer": "An operator in C is a symbol that performs an operation on one or more values (or variables). For example, the addition operator (+) adds two values, the assignment operator (=) assigns a value to a variable, and the comparison operator (==) compares two values to see if they are equal. Operators in C are used to perform a variety of tasks, such as arithmetic calculations, comparisons, and assignments."
+    },
+    {
+      "question": "What is an array in C language?",
+      "answer": "An array in C is a collection of elements of the same data type. Arrays are used to store multiple values in a single variable, making it easier to work with large amounts of data. Each element in an array is referenced by an index, which is an integer value that starts at 0. Arrays in C can be one-dimensional (single row) or multi-dimensional (multiple rows and columns). By using arrays, you can easily organize and manipulate large amounts of data in your C programs."
+    },
+    {
+      "question": "What is a pointer in C language?",
+      "answer": "A pointer in C is a variable that stores the memory address of another variable. Pointers are used to work with memory directly, such as to allocate and deallocate memory dynamically, to pass variables to functions by reference, and to create and manipulate dynamic"
+    },
+    {
+      "question": "What is the difference between call by value and call by reference in C language?",
+      "answer": "In C language, call by value is a method of passing arguments to a function where the value of the argument is passed to the function. The function receives a copy of the argument, so any changes made to the argument within the function will not affect the original value. Call by reference, on the other hand, is a method of passing arguments to a function where the memory address of the argument is passed to the function. The function receives the memory address of the argument, so any changes made to the argument within the function will affect the original value. It is important to understand the difference between these two methods in order to effectively use them in your C programs."
+    },
+    {
+      "question": "What is a structure in C language?",
+      "answer": "A structure in C is a collection of variables of different data types that are grouped together under a single name. Structures are used to represent a record, such as a student's information, where each variable in the structure represents a different field of information, such as the student's name, age, and grade. Structures in C can be used to create complex data types, making it easier to work with large amounts of data. By using structures, you can organize and manipulate data in your C programs in a more efficient and effective way."
+    },
+    {
+      "question": "What is a union in C language?",
+      "answer": "A union in C is a user-defined data type that can store different data types in the same memory location. Unions are used to save memory space by sharing a single memory location between different variables. A union in C can only store the value of one of its members at a time. The size of a union is equal to the size of its largest member. Unions in C are used to represent variables that can take on different data types at different times, making it more efficient to use memory in your C programs."
+    },
+    {
+      "question": "What is a preprocessor directive in C language?",
+      "answer": "A preprocessor directive in C is a command that is executed by the preprocessor before the program is compiled. Preprocessor directives in C begin with the # symbol and are used to perform various tasks, such as including header files, defining macros, and conditional compilation. Preprocessor directives are an important aspect of C programming as they allow you to extend the functionality of the language and make your code more readable and maintainable."
+    },
+    {
+      "question": "What is a header file in C language?",
+      "answer": "A header file in C is a file that contains declarations for functions, variables, and other constructs that can be used in a C program. Header files in C provide a way to separate declarations from the implementation, making it easier to maintain and update your code. Header files are typically included in a C program using the #include preprocessor directive. By using header files, you can reuse code across multiple programs, reduce the amount of code you need to write, and make your code more modular and maintainable."
+    }
+  ]
+}

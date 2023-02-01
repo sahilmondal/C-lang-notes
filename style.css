@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap");
+:root {
+  --bg-color: #fffffe;
+  --secondary-bg-color: #d8eefe;
+  --text-color: #094067;
+  --text-color-2: #2b2c34;
+  --primary-color: #3da9fc;
+  --btn-txt-color: #fffffe;
+  --nav-bg: #094067;
+  --nav-text-color: #fffffe;
+  --heading-font: "Roboto Slab", serif;
+  --text-font: "Poppins", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* padding: 30px 20px; */
+  overflow-x: hidden;
+}
+h2 {
+  font-family: var(--heading-font);
+  padding: 10px 20px;
+}
+p {
+  font-family: var(--text-font);
+  color: var(--text-color-2);
+  padding: 10px 20px;
+  font-size: large;
+  margin-top: 10px;
+}
+ol > li:nth-child(odd) {
+  background-color: var(--secondary-bg-color);
+}
+ol {
+  list-style: none;
+  counter-reset: item;
+  padding: 0;
+}
+ol > li {
+  counter-increment: item;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 30px;
+}
+ol > li:before {
+  content: counter(item);
+  background: var(--primary-color);
+  border-radius: 100%;
+  color: var(--btn-txt-color);
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  padding: 4px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--nav-bg);
+  z-index: 5;
+  color: var(--nav-text-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  color: var(--btn-txt-color);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-size: medium;
+  font-family: var(--text-font);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  body {
+    position: relative;
+    text-align: center;
+  }
+  ol {
+    max-width: 65vw;
+    right: 0;
+    left: 0;
+    margin: 60px auto;
+    text-align: left;
+  }
+}
+footer {
+  background-color: var(--nav-bg);
+  color: var(--nav-text-color);
+  text-align: center;
+  padding: 20px;
+  font-family: var(--text-font);
+  font-size: small;
+}
