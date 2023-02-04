@@ -26,6 +26,9 @@ h2 {
   font-family: var(--heading-font);
   padding: 10px 20px;
 }
+h1{
+  margin-top: 50px;
+}
 p {
   font-family: var(--text-font);
   color: var(--text-color-2);
