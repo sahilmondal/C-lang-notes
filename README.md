@@ -23,5 +23,3 @@ The website was built using the following technologies:
 - **HTML**: Used for the overall structure and layout of the website.
 
 - **CSS**: Employed for styling and visual enhancements, ensuring a pleasant user experience.
-
-- **JavaScript**: Implemented interactive elements and search functionality.
